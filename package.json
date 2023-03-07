@@ -1,0 +1,22 @@
+{
+  "name": "interactive-rating-component",
+  "version": "1.0.0",
+  "description": "![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/00lar/Interactive-rating-component.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/00lar/Interactive-rating-component/issues"
+  },
+  "homepage": "https://github.com/00lar/Interactive-rating-component#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
