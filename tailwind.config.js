@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}", "./index.html"],
+  content: ["./src/**/*.{html,js}", "./index.html", "./main.js"],
   theme: {
     extend: {
       backgroundColor: {
@@ -18,6 +18,7 @@ module.exports = {
       textColor: {
         white: "hsl(0, 0%, 100%)",
         LightGrey: "hsl(217, 12%, 63%)",
+        orange: "hsl(25, 97%, 53%)",
       },
     },
   },

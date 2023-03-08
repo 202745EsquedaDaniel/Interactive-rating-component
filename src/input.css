@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 .circulo {
-    @apply bg-GrayCute w-fit p-4 rounded-full;
+    @apply bg-GrayCute w-fit p-4 rounded-full hover:text-white;
+}
+
+.btnactive {
+    @apply bg-MediumGrey text-white;
 }
