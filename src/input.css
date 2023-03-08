@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.circulo {
+    @apply bg-GrayCute w-fit p-4 rounded-full;
+}
