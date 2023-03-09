@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .circulo {
-  @apply bg-GrayCute w-fit p-4 rounded-full hover:text-white;
+  @apply bg-GrayCute w-fit text-center p-4 rounded-full hover:text-white cursor-pointer h-auto;
 }
 
 .btnactive {
