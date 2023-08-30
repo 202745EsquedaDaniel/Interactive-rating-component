@@ -81,5 +81,11 @@ function updateSelected() {
   
 }
 if (selected == 0) {
+  
   btnsubmit.disabled = true;
+  alertade0();
+}
+
+function alertade0() {
+  alert("el valor no puede ser 0")
 }
